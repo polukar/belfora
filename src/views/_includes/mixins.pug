@@ -1,0 +1,11 @@
+mixin svgsprite(name)
+  svg(class="svgsprite _" + name)&attributes(attributes)
+    use(xlink:href="assets/img/sprites/svgsprites.svg#" + name)
+
+mixin counter 
+  .counter 
+    .counter__minus
+      +svgsprite('minus')
+    input.counter__input(type="text" disabled value="1")
+    .counter__plus
+      +svgsprite('plus')

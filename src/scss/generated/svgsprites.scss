@@ -1,0 +1,86 @@
+.svgsprite {
+    display:inline-block;
+    fill:currentColor;
+    vertical-align:middle;
+
+    &._arrow-down {
+    	width:20px;
+    	height:20px;
+    }
+    &._arrow-left {
+    	width:20px;
+    	height:20px;
+    }
+    &._arrow-right {
+    	width:20px;
+    	height:20px;
+    }
+    &._bank {
+    	width:38px;
+    	height:34px;
+    }
+    &._basket {
+    	width:35px;
+    	height:35px;
+    }
+    &._checked {
+    	width:15px;
+    	height:15px;
+    }
+    &._clock {
+    	width:20px;
+    	height:20px;
+    }
+    &._close {
+    	width:35px;
+    	height:35px;
+    }
+    &._close-small {
+    	width:20px;
+    	height:20px;
+    }
+    &._heart {
+    	width:35px;
+    	height:35px;
+    }
+    &._inst {
+    	width:35px;
+    	height:35px;
+    }
+    &._marker {
+    	width:35px;
+    	height:35px;
+    }
+    &._minus {
+    	width:20px;
+    	height:20px;
+    }
+    &._paper {
+    	width:38px;
+    	height:34px;
+    }
+    &._paypall {
+    	width:38px;
+    	height:34px;
+    }
+    &._phone {
+    	width:35px;
+    	height:35px;
+    }
+    &._plus {
+    	width:20px;
+    	height:20px;
+    }
+    &._rub {
+    	width:38px;
+    	height:34px;
+    }
+    &._search {
+    	width:35px;
+    	height:35px;
+    }
+    &._star {
+    	width:18px;
+    	height:18px;
+    }
+}

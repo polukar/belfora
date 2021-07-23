@@ -1,0 +1,144 @@
+
+.header__wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 170px;
+}
+
+.header__nav{
+  display: flex;
+  width: calc(50% - 72px);
+}
+
+.nav__link{
+  margin-right: 45px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: transparent;
+  transition: border .4s;
+  &:last-child{
+    margin-right: 0px;
+  }
+  &:hover,
+  &.active{
+    border-bottom-color: inherit;
+  }
+}
+
+.header__info{
+  width: calc(50% - 72px);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.work-time{
+  position: relative;
+  padding-left: 36px;
+  margin-right: 40px;
+  &:after, &:before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #4ED442;
+    border-radius: 50%;
+  }
+  &:after{
+    left: 0;
+    width: 24px;
+    height: 24px;
+    opacity: 0.15;
+  }
+  &:before{
+    left: 5px;
+    width: 14px;
+    height: 14px;
+  }
+}
+
+.header__buttons{
+  display: flex;
+  justify-content: flex-end;
+  .circle__button{
+    margin-right: 22px;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}
+
+.mobile-search{
+  display: none;
+}
+
+
+
+@media(max-width: 1200px){
+  .work-time{
+    display: none;
+  }
+}
+
+
+@media(max-width: 980px){
+  .header__wrap{
+    height: 90px;
+  }
+
+  .header__logo{
+    width: 100px;
+  }
+
+  .nav__link{
+    font-size: 14px;
+    margin-right: 25px;
+  }
+}
+
+
+@media(max-width: 768px){
+
+  .header__wrap{
+    height: 75px;
+  }
+
+  .header__logo{
+    width: 72px;
+  }
+
+  .header__buttons{
+    .circle__button{
+      display: none;
+      margin-right: 0px;
+    }
+    .circle__button--inst,
+    .circle__button--phone{
+      display: flex;
+    }
+    
+  }
+
+  .header__nav{
+    display: none;
+  }
+
+  .header__info{
+    width: auto;
+  }
+
+  .contact--social .circle__button{
+    width: 32px;
+    height: 32px;
+  }
+
+  .contact--social .svgsprite._inst{
+    width: 18px;
+    height: 18px;
+  }
+
+  .contact--margin{
+    margin-bottom: 14px;
+  }
+}

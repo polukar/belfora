@@ -1,0 +1,33 @@
+.header
+  .container
+    .header__wrap 
+      .mobile-search 
+        .search
+          button.circle__button.search__btn
+            +svgsprite('search')
+      nav.nav.header__nav
+        a.nav__link(href="catalog.html") Каталог
+        a.nav__link(href="reports.html") Отзывы
+        a.nav__link(href="pay.html") Доставка и оплата
+      .header__logo
+        img(src="./assets/img/logo.svg", alt="")
+      .header__info
+        .work-time Принимаем заказы 24/7
+        .header__buttons
+          button.circle__button.circle__button--phone.-js-fadeintooltip
+            +svgsprite('phone')
+            .tooltip.--mright
+              .contact.contact--margin
+                p.text-title + 7 (924) 240-90-74
+                a.grey-description(href="#") Заказать звонок 
+              .contact.contact--margin
+                p.text-title Проспект славы, 86
+                .grey-description(href="#") с 8 до 20:00, без выходных
+              a.contact.contact--social
+                .circle__button.circle__button--inst.--black
+                  +svgsprite('inst')
+                p.text-title Instagram
+          a.circle__button(href="#")
+            +svgsprite('heart')
+          button.circle__button.-js-fadeinbasket(href="#")
+            +svgsprite('basket')
