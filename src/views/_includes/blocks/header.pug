@@ -2,14 +2,17 @@
   .container
     .header__wrap 
       .mobile-search 
-        .search
-          button.circle__button.search__btn
+        .search.search-main 
+          button.circle__button.search__btn.-js-searchopen
             +svgsprite('search')
+          input.search__input(type="text" placeholder="Поиск...")
+          button.search__close.-js-searchclose
+            +svgsprite('close')
       nav.nav.header__nav
         a.nav__link(href="catalog.html") Каталог
         a.nav__link(href="reports.html") Отзывы
         a.nav__link(href="pay.html") Доставка и оплата
-      .header__logo
+      a.header__logo(href="index.html") 
         img(src="./assets/img/logo.svg", alt="")
       .header__info
         .work-time Принимаем заказы 24/7
@@ -29,5 +32,50 @@
                 p.text-title Instagram
           a.circle__button(href="#")
             +svgsprite('heart')
-          button.circle__button.-js-fadeinbasket(href="#")
+          button.circle__button.circle__button--basket.-js-fadeinbasket(href="#")
             +svgsprite('basket')
+            .basket__number 3
+.mobile-menu 
+  .conatiner 
+    nav.mobile-menu__nav
+      .accardeon 
+        .accardeon__item  
+          .accardeon__main Каталог букетов
+          .accardeon__drop
+            .mobile-menu__link 
+              a.nav__link(href="#") Сыылка
+            .mobile-menu__link 
+              a.nav__link(href="#") Сыылка
+        .accardeon__item  
+          .accardeon__main Подарки
+          .accardeon__drop
+            .mobile-menu__link 
+              a.nav__link(href="#") Сыылка
+            .mobile-menu__link 
+              a.nav__link(href="#") Сыылка
+        .mobile-menu__link 
+          a.nav__link(href="#") О нас
+        .mobile-menu__link 
+          a.nav__link(href="#") Оплата и доставка
+        .mobile-menu__link 
+          a.nav__link(href="#") Отзывы
+        .mobile-menu__link 
+          a.nav__link(href="#") Контакты
+    .mobile-menu__contacts
+      .footer__contact
+        .footer__circle
+          +svgsprite('marker')
+        .contact
+          p.text-title Проспект славы, 86
+          .grey-description с 8 до 20:00, без выходных
+      .footer__contact
+        .footer__circle
+          +svgsprite('phone-footer')
+        .contact
+          p.text-title + 7 (924) 240-90-74
+          a.grey-description(href="#") Заказать звонок 
+      .footer__contact
+        .footer__circle
+          +svgsprite('inst')
+        .contact
+          p.text-title Instagram

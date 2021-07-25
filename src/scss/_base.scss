@@ -9,7 +9,6 @@
 
   &.--frozen {
       overflow: hidden;
-      height: 100%;
   }
 }
 
@@ -20,6 +19,7 @@
   margin: 0 auto;
   position: relative;
   z-index: 50;
+  width: 100%;
 }
 
 .hidden {
@@ -160,6 +160,16 @@ h5{
 }
 
 
+.title-text{
+  p.text{
+    font-size: 22px;
+    max-width: 650px;
+    margin: 0 auto 40px;
+    text-align: center;
+  }
+}
+
+
 @media(max-width: 980px){
   .body{
     font-size: 13px;
@@ -173,6 +183,11 @@ h5{
 
 
 @media(max-width: 768px){
+  .body{
+    padding-bottom: 65px;
+    padding-top: 75px;
+  }
+
   h1{
     font-size: 32px;
     line-height: 32px;
@@ -201,5 +216,18 @@ h5{
   h5{
     font-size: 15px;
     line-height: 18px;
+  }
+  p.text{
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  .title-text{
+    p.text{
+      font-size: 15px;
+      line-height: 19px;
+      margin-bottom: 20px;
+      max-width: 330px;
+    }
   }
 }

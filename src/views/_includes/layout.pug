@@ -8,13 +8,20 @@ html(lang=__.lang, class="no-js")
     body.body(class=bodyClass)
         include mixins
         include mixinblocks/basket-cart
-        
+        include mixinblocks/main-banner
+        include mixinblocks/main-banner-filter
+        include mixinblocks/cart
+        include mixinblocks/catalog
+        include mixinblocks/page-banner
+        include mixinblocks/text-section
         include blocks/header
-        
         .content
             block content
+        block uncontent
         include blocks/footer
+
         include blocks/basket
+        include blocks/mobile-bar
         
         block scripts-config
         block scripts

@@ -27,9 +27,13 @@
     "dependencies": {
         "inputmask": "^5.0.3",
         "jquery": "^3.6.0",
+        "jquery-lazy": "^1.7.11",
         "lazysizes": "5.x",
+        "nouislider": "^15.2.0",
         "svg4everybody": "2.x",
-        "vanilla-lazyload": "^17.4.0"
+        "swiper": "^6.8.0",
+        "vanilla-lazyload": "^17.4.0",
+        "wnumb": "https://github.com/leongersen/wnumb.git"
     },
     "devDependencies": {
         "@babel/core": "^7.0.0",

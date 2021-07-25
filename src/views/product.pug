@@ -1,0 +1,69 @@
+//- extends _includes/layout
+
+//- block config
+//-   - var pagetitle = 'Предварительный каталог'
+//-   - var bodyClass = ''
+//- block content
+//-   section.product-section
+//-     .container 
+//-       +crumbs('Главная страница', 'Каталог букетов', 'Букет из кустовой хризмнтемы и кустовой розы')
+//-       .product
+//-         .product__slider 
+//-         .product__content
+//-           .product__item
+//-             h2.product__title Коробка с цветами «Восторг»
+//-             .product__list 
+//-               .status Есть в наличии
+//-               +stars-static
+//-               p.product-reports-summ 2 отзыва
+//-             p.product__price 2 450 руб.
+//-           .product__item
+//-             p.product__description Выберите размер букета
+//-             .product__list
+//-               label.checkbox-button
+//-                 input.hidden(type="checkbox")
+//-                 .button.--lightgrey35 штук
+//-               label.checkbox-button
+//-                 input.hidden(type="checkbox")
+//-                 .button.--lightgrey 51 штука
+//-               label.checkbox-button
+//-                 input.hidden(type="checkbox")
+//-                 .button.--lightgrey 101 штука
+//-           .product__item
+//-             p.product__description Количество
+//-             +count
+//-             .count__description Минимальное количество заказа - 1 штука
+//-           .product__item.--jcsb
+//-             .product__btns 
+//-               button.button.--dark В корзину
+//-               button.button.--grey Купить в 1 клик
+//-             .product__like.cart__like
+//-               +svgsprite('heart-full')
+//-           .accardeon
+//-             .accardeon__item
+//-               .accardeon__main Состав букета
+//-               .accardeon__drop
+//-                 .catalog__structure
+//-                   .catalog__structure-item
+//-                     .catalog__structure-name Хризантемы
+//-                     .catalog__structure-summ 7 шт.
+//-                   .catalog__structure-item
+//-                     .catalog__structure-name Кустовые розы
+//-                     .catalog__structure-summ 5 шт.
+//-                   .catalog__structure-item
+//-                     .catalog__structure-name Упаковка
+//-                     .catalog__structure-summ 1 шт.
+//-                   .catalog__structure-item
+//-                     .catalog__structure-name Лента
+//-                     .catalog__structure-summ 1 шт.
+//-             .accardeon__item
+//-               .accardeon__main Отзывы  (2)
+//-               .accardeon__drop
+//-                 p Хотите оставить отзыв о данном товаре?
+//-                 .catalog__report
+//-                   .catalog__btn Оставить отзыв
+//-                   form.page-form
+//-                     h4 Оставьте отзыв
+//-                     input.input(type="text")
+//-                     textarea.textarea(type="text")
+//-                     +

@@ -4,7 +4,8 @@
 
 // External
 // @import "vendor/jquery.fancybox.css";
-// @import "node_modules/swiper/swiper.scss";
+@import "node_modules/swiper/swiper.scss";
+@import "plugins/nouislider.scss";
 
 // Base
 @import "mixins";
@@ -24,9 +25,17 @@
 @import "components/project/contact";
 @import "components/project/basket";
 @import "components/project/counter";
+@import "components/project/main-banner";
+@import "components/project/crumbs";
+@import "components/project/cart";
+@import "components/project/catalog";
+@import "components/project/page-banner";
+@import "components/project/text-section";
+@import "components/project/mobile-bar";
 
 
 
 // Project pages
 @import "pages/main";
+@import "pages/catalog";
 
