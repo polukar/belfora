@@ -87,7 +87,7 @@
     }
   }
 
-  .--lightgrey{
+  &.--lightgrey{
     background-color: #F7F7F7;
     color: #292223;
     &:hover{
@@ -97,7 +97,14 @@
   }
 
 }
-
+@media(max-width: 980px){
+  .button.--lightgrey{
+    height: 50px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 15px;
+  }
+}
 @media(max-width: 768px){
   .button.--small{
     font-size: 13px;
@@ -113,6 +120,11 @@
   .button{
     height: 50px;
     font-size: 15px;
+  }
+
+  .button.--lightgrey{
+    padding-left: 18px;
+    padding-right: 18px;
   }
 }
 

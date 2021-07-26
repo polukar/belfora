@@ -22,8 +22,8 @@ const filter = {
         rangeContainer = document.querySelector('.main__banner-filter--desktop');
       }
 
-      var rangeFilter = rangeContainer.querySelector('#range-bar');
-      if (rangeFilter) {
+      if (rangeContainer) {
+        var rangeFilter = rangeContainer.querySelector('#range-bar');
         var marginMin = rangeContainer.querySelector('#range__from');
         var marginMax = rangeContainer.querySelector('#range__to');
         var minSumm = 0;

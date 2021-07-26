@@ -32,10 +32,18 @@
 @import "components/project/page-banner";
 @import "components/project/text-section";
 @import "components/project/mobile-bar";
+@import "components/project/stars";
+@import "components/project/form";
+@import "components/project/offers";
 
 
 
 // Project pages
 @import "pages/main";
 @import "pages/catalog";
+@import "pages/product";
+@import "pages/pay";
+@import "pages/contacts";
+@import "pages/orders";
+@import "pages/steps";
 

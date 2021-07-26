@@ -11,6 +11,9 @@ import sliders from 'sliders';
 import accardeon from 'accardeon';
 import mobileBar from 'mobile-bar';
 import filter from 'filter';
+import header from 'header';
+import mapBlock from 'map';
+import form from 'form';
 
 
 let app = {
@@ -24,9 +27,12 @@ let app = {
         cart.init();
         sliders.init();
         accardeon.init();
+        mapBlock.init();
         mobileBar.init();
         basket.init();
         filter.init();
+        header.init();
+        form.init();
     }
 };
 app.init();
