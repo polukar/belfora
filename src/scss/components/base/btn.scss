@@ -8,7 +8,7 @@
   align-items: center;
   transition: background-color .4s;
   &:hover{
-    background-color: #F0F0F1;
+    background-color: #EBEBEC;
   }
 
   &.--black{
@@ -65,13 +65,13 @@
     background-color: #3C3C3C;
     color: #fff;
     &:hover{
-      background-color: #292223;
+      background-color: #221E1E;
     }
   }
 
   &.--white{
     background-color: transparent;
-    border-color: #646464;
+    border-color: #E4E7EF;
     border-width: 1px;
     border-style: solid;
     &:hover{
@@ -83,7 +83,7 @@
     background-color: #B3B7C2;
     color: #fff;
     &:hover{
-      background-color: #292223;
+      background-color: #949AAA;
     }
   }
 

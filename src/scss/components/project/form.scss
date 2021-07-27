@@ -22,6 +22,30 @@
   position: relative;
 }
 
+.block--error{
+  .form__error{
+    display: block;
+  }
+  .form__input{
+    border-color: #F55174;
+    &:hover{
+      border-color: #F55174;
+    }
+  }
+}
+
+.block--succes{
+  .form__input{
+    border-color: #55CF4A;
+    &:hover{
+      border-color: #55CF4A;
+    }
+  }
+  .form__error{
+    display: none;
+  }
+}
+
 .form__error{
   font-size: 14px;
   line-height: 22px;

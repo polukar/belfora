@@ -150,7 +150,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  border: 1px solid #646464;
+  border: 1px solid #E4E7EF;
   transition: border-color .4s;
   cursor: pointer;
   &:hover{
@@ -189,7 +189,7 @@
   align-items: center;
   font-size: 16px;
   &:hover{
-    background-color: #F0F0F1;
+    background-color: #EBEBEC;
   }
   .basket__radio input:checked + &{
     background-color: $color-base;
@@ -232,8 +232,8 @@
   }
 
   .basket{
-    height: calc(100% - 75px);
-    top: 75px;
+    height: calc(100% - 54px);
+    top: 54px;
     background-color: #fff;
   }
 

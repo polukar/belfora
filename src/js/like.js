@@ -6,6 +6,9 @@ const like = {
     $('.cart__like').on('click', function () {
       $(this).toggleClass('active');
     })
+    $('.product__like').on('click', function () {
+      $(this).toggleClass('active');
+    })
   }
 }
 

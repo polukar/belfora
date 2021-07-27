@@ -37,7 +37,10 @@ const cart = {
       $('.cart__buttons').fadeOut();
       $('.cart__like').fadeIn();
       $('.tags').fadeIn();
-    })
+    });
+
+
+
   }
 }
 

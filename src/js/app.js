@@ -6,7 +6,7 @@ import removeCart from 'remove-cart';
 import basket from 'basket';
 import search from 'search';
 import like from 'like';
-import cart from 'cart';
+// import cart from 'cart';
 import sliders from 'sliders';
 import accardeon from 'accardeon';
 import mobileBar from 'mobile-bar';
@@ -24,7 +24,6 @@ let app = {
         removeCart.init();
         search.init();
         like.init();
-        cart.init();
         sliders.init();
         accardeon.init();
         mapBlock.init();

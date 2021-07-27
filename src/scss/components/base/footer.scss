@@ -70,6 +70,15 @@ footer{
 
 .footer__link{
   margin-bottom: 17px;
+  .link{
+    font-weight: normal;
+    border-bottom: 1px solid transparent;
+    transition: border .4s;
+    &:hover{
+      color: $color-base;
+      border-bottom-color: $color-base;
+    }
+  }
   &:last-child{
     margin-bottom: 0px;
   }
